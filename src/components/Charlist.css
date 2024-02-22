@@ -1,0 +1,39 @@
+.Body{
+    background-image: url('/src/utils/assets/starwars.jpg');
+    padding-bottom: 5rem;
+}
+
+.Character-card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-button{
+    padding: 0.75rem; 
+    margin: 0.5rem; 
+    background-color: #6b46c1;
+    color: #ffffff;
+    border-radius: 0.5rem; 
+    transition: background-color 0.3s ease;
+}
+.Search-input{
+    padding-left: 2rem;
+}
+.Paginated-container{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(126, 117, 117);
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    width: 100%;
+}
+
